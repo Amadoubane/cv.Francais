@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #4CAF50;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 15px;
+    color: #333;
+}
+
+.Coordonnées, .langues, .Experience, .Diplômes, .Compétence, .centre {
+    margin-bottom: 20px;
+}
+
+p, ul {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    padding: 5px 0;
+}
+
+li::before {
+    content: "";
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.Coordonnées p, .langues p {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.Compétence ul, .centre ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
